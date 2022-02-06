@@ -3,8 +3,10 @@ background-color : #dedede;
 }
 
 /*backgrounds*/
-#page-wrapper {background-image: url('https://github.com/Rfluid/AoPS-Blog/blob/main/blog-bckgrnd.jpg');}
+#page-wrapper {background-image: url("https://raw.githubusercontent.com/Rfluid/AoPS-Blog/main/bckgrnd1.gif"); background-color: #cccccc;}
+
 div#main {background-color: LightGrey}
+
 
 /* tirando emoji de lapis*/
 #post-new-entry-img {
