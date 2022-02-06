@@ -1,0 +1,176 @@
+div .entrywrap, div .entrywrap-hover {
+background-color : #dedede;
+}
+
+/*backgrounds*/
+#page-wrapper {background-color: black;}
+div#main {background-color: LightGrey}
+
+/* tirando emoji de lapis*/
+#post-new-entry-img {
+  display: none;
+}
+
+/* ajustando cores*/
+h1,h2 {color : #B8860B;}
+
+.cmty-item-tag{background-color: GoldenRod !important  }
+
+div h1 a {font-family: 'Garamond' !important; color:#B8860B !important; size: 27px}
+
+div h2 {font-family: 'Courier New' !important;}
+a:link {color: darkcyan !important;}
+
+a.username-colored {color: DarkOliveGreen !important; font-family: 'Times New Roman'; size 20px}
+
+#header h1{
+font-size: 35px;
+text-align: left !important;
+margin-left: 70px;
+margin-top: 40px;
+font-family: 'Times New Roman';
+}
+
+/**escondendo problemas propostos**/
+#post-2772298 div.efooter div.actions ul li a.post-replies {display: none;}
+  
+/**setting comment button**/
+ a.post-comment {
+  color: black !important; 
+  background-color: tomato;
+  border: 1px solid var(--entrytext);
+  color: black;
+  border-radius: 9px; 
+  padding: 3.5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none !important;
+  transition: 0.4s;  }
+div.modactions ul li a:hover, div.actions ul li a:hover {
+  background-color: LightSteelBlue; 
+  color: var(--entry);
+  transition: 0.4s; }
+
+div.modactions ul li a, div.actions ul li a {
+font-family: 'Lucida Console';
+text-decoration: none !important;
+}
+
+
+
+/*The following navigation box is entirely due to tyxchen ad GitHub. Navigation box source code: https://github.com/tyxchen/aops-city. Thanks to tyxchen */
+
+#navigation_box a {
+  /* Source for %title */
+  /* Rule extends %heading */
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(51, 51, 51, 0.6);
+}
+
+#navigation_box {
+  /* Rule extends %reset-all */
+  /* Rule extends %content-box */
+  /* Rule extends %no-user-select */
+  /* Rule extends %transition03 */
+  position: fixed;
+  color: transparent;
+  background-color: #fff;
+  font-size: 1em;
+  white-space: nowrap;
+  padding: 0 1em;
+  border-bottom: 1px solid #e6e6e6;
+  opacity: 0.95;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+  height: 3rem;
+}
+
+#navigation_box a {
+  /* Rule extends %title */
+  display: inline;
+  color: #333;
+  text-shadow: none;
+  font-size: inherit;
+  font-weight: 300;
+  line-height: 3rem;
+  padding: 1.1em 0.4em;
+  border-top: 0.2em solid #333;
+  margin: 0 -0.3em;
+  transition: 0.3s ease;
+}
+
+#left_navigation_box {
+  height: 100%;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+#left_navigation_box a:hover,
+#left_navigation_box a:focus,
+#left_navigation_box a:last-child {
+  padding-top: 0.75em;
+  color: #1a1a1a;
+}
+
+#right_navigation_box {
+  position: relative;
+  margin-right: 2.7rem;
+  width: 7.5em;
+  height: 3em;
+}
+
+#right_navigation_box a {
+  /* Rule extends %border-box */
+  /* Rule extends %transition03 */
+  position: absolute;
+  color: transparent;
+  font-size: 0.01px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto 40%;
+  background-position: center;
+  width: 2.5rem;
+  height: 3rem;
+}
+
+#right_navigation_box a:hover, #right_navigation_box a:focus {
+  background-color: #e6e6e6;
+  border-bottom: none !important;
+}
+
+#right_navigation_box .blog-info {
+  left: 0;
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+PHN2ZyB3aWR0aD0iMzAiIGhlaWdodD0iMzAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGc+PGNpcmNsZSBpZD0iY2lyY2xlIiBmaWxsPSJub25lIiBzdHJva2U9IiMzMzMiIHI9IjE0IiBjeD0iMTUiIGN5PSIxNSIvPjxjaXJjbGUgaWQ9ImRvdCIgZmlsbD0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIwIiByPSIxIiBjeD0iMTUiIGN5PSI3LjUiLz48cGF0aCBpZD0iaSIgZmlsbD0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIwIiBkPSJtMTIuNSwxMS41bDMuNSwwbDAsMTFxMCwwLjUgMC41LDAuNWwxLDBsMCwxbC01LDBsMCwtMWwxLDBxMC41LDAgMC41LC0wLjVsMCwtOS41cTAsLTAuNSAtMC41LC0wLjVsLTEsMGwwLC0xeiIvPjwvZz48L3N2Zz4=");
+}
+
+#right_navigation_box #blog-subscribe {
+  left: 2.5rem;
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+PHN2ZyB3aWR0aD0iMjciIGhlaWdodD0iMzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGc+PHBhdGggaWQ9Im1hcmsiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMzMyIgZD0ibTAuNSwxbDI1LjUsMGwwLDI4LjVsLTEyLjUsLTkuNWwtMTIuNSw5LjVsMCwtMjguNXoiLz48L2c+PC9zdmc+");
+}
+
+#right_navigation_box #blog-subscribe[title*='stop'] {
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+PHN2ZyB3aWR0aD0iMjciIGhlaWdodD0iMzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGc+PHBhdGggaWQ9Im1hcmsiIGZpbGw9IiMzMzMiIHN0cm9rZT0iIzMzMyIgZD0ibTAuNSwxbDI1LjUsMGwwLDI4LjVsLTEyLjUsLTkuNWwtMTIuNSw5LjVsMCwtMjguNXoiLz48L2c+PC9zdmc+");
+}
+
+#right_navigation_box .blog-login,
+#right_navigation_box .blog-logout {
+  left: 5rem;
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+PHN2ZyB3aWR0aD0iMjciIGhlaWdodD0iMzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGc+PHBhdGggaWQ9ImRvb3IiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMzMyIgZD0ibTEsMWwxOCwwbDAsMTIuNW0wLDRsMCwxMi41bC0xOCwwTDEsLjUiLz48cGF0aCBpZD0iYXJyb3ciIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMzMyIgZD0ibTEyLDE1LjVsMTQuNSwwTTE2LDExbC00LjUsNC41bDQuNSw0LjUiLz48L2c+PC9zdmc+");
+}
+
+#right_navigation_box .blog-logout {
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+PHN2ZyB3aWR0aD0iMjciIGhlaWdodD0iMzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGc+PHBhdGggaWQ9ImRvb3IiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMzMyIgZD0ibTEsMWwxOCwwbDAsMTIuNW0wLDRsMCwxMi41bC0xOCwwTDEsLjUiLz48cGF0aCBpZD0iYXJyb3ciIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzMzMyIgZD0ibTEyLDE1LjVsMTQuNSwwTTIyLDExbDQuNSw0LjVsLTQuNSw0LjUiLz48L2c+PC9zdmc+");
+}
+
+#right_navigation_box .blog-login + .blog-info {
+  left: 2.5rem;
+  background-color: #fff;
+  z-index: 12;
+}
+
+#right_navigation_box .blog-login + .blog-info:hover {
+  background-color: #e6e6e6;
+}
