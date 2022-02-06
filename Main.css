@@ -3,7 +3,7 @@ background-color : #dedede;
 }
 
 /*backgrounds*/
-#page-wrapper {background-color: black;}
+#page-wrapper {background-image: url('https://github.com/Rfluid/AoPS-Blog/blob/main/blog-bckgrnd.jpg');}
 div#main {background-color: LightGrey}
 
 /* tirando emoji de lapis*/
